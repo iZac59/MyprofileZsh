@@ -1,0 +1,9 @@
+sleep 5s && kalu &
+nitrogen --restore &
+xrandr --output DP1 --auto --left-of HDMI2 --auto
+volumeicon &
+compton --config ~/.config/compton.conf -b &
+tint2 &
+plank &
+conky -c ~/.config/conky.conf &
+lxpolkit &
